@@ -1,0 +1,69 @@
+Acho que não é preciso dizer que o Professor Isidro é um apaixonado pela profissão né?
+
+Mas sabe como tudo começou? Olha isso aqui:
+
+
+
+Este é o CP300, o 1o computador que eu vi na vida!! Minha mãe trabalhava em uma escola que decidiu inovar e montar uma escola de computação com estes equipamentos!! Animaaaaal!!! Eu vi uma pessoa programando em BASIC como desenhar um “emoji” que ocupava a tela inteira (verde com fundo preto). Nesse dia eu disse a mim mesmo: é com isso que quero passar o resto da vida!
+
+Pois bem, minha mãe e meu pai compraram a idéia e eu me matriculei em todos os possíveis cursos que a escola podia oferecer: Basic, DOS, DBaseIII Plus, Clipper, Dataflex, FoxPro, CorelDraw, AutoCAD e o que aparecesse de novidades, estava lá o Isidro pra se matricular.
+
+Muito bem… por conta disso, meu primeiro software de verdade foi feito quando eu estava no ensino médio (o ano era 94, 95) estudando para entrar em Ciência da Computação. Era um sistema de folha de pagamento feito em Clipper Summer 87 (depois vocês pesquisem pra ver como é antigo!!!) que ajudaria minha mãe por longos 10 anos até que ela viria a se aposentar. Esse sistema veio a poupar várias horas de trabalho, porque minha mãe datilografava todos os recibos de pagamentos dos mais de 150 funcionários da escola. Ela levava quase 1 semana para calcular e datilografar tudo. Quando o sistema foi implantado, o trabalho de quase 1 semana reduziu a algumas horas e a impressão a alguns minutos. Era incrível para ela.
+
+Isso me gerou muita satisfação, pois, mesmo sem saber eu entendi que software só é software quando é útil para alguém, caso contrário é apenas um amontoado de linhas de código.
+
+E como bom apaixonado, comecei a querer estudar mais. Fiz graduação, mestrado, doutorado e nunca parei de estudar.
+
+Ser apaixonado pelo que faz é bom? Claro que sim! A paixão é um dos grandes combustíveis que nos permitem iniciar projetos novos, encarar novos desafios, buscar novos conhecimentos e querer aprender sempre mais.
+
+E é aí que mora o problema do apaixonado.
+
+Quando somos efetivamente apaixonados, caímos várias vezes em armadilhas de começar muita coisa, desenvolvê-la pouco e quase nunca entregá-la.
+
+
+
+Ou seja: temos uma grande iniciativa, uma mediana ou até mesmo fraca executiva e quase nenhuma  acabativa. Por que isso? Porque, como bons apaixonados, a mesma velocidade que nos faz querer começar nos faz também pegar “bode” das coisas e não terminá-las.
+
+nota: Este artigo mesmo… eu estava louco para escrevê-lo logo após minha palestra na Campus (que falei justamente dele), porém se eu não me colocasse um prazo, eu iria deixar passar (porque obviamente outras coisas iriam tomar novas prioridades)
+
+Muito bem, mas como vencer essa inércia de começar fácil varias coisas e não terminá-las. Na verdade a “fórmula mágica” que eu acabei descobrindo a duras penas é tentar filtrar projetos que eu entraria ou não. Mas com base em quais critérios eu diria “não” para alguns projetos?
+
+Como somos programadores, adoramos frameworks né? Então.. eu acabei organizando meus critérios em um framework. Que chamei de
+
+Framework dos 3 PQ para projetos pessoais.
+
+Oi?
+
+Sim… são 3 perguntas que eu devo fazer a mim mesmo antes de entrar de cabeça em um projeto.
+
+Para que?
+Para quem?
+Para quando?
+Isso pode parecer ridículo, mas você consegue efetivamente filtrar coisas bacanas. Olha que legal
+
+Para que? Respondendo a esta pergunta, você vai encontrar o Propósito do seu projeto. Aquilo que vai te motivar a fazer. Você (assim como eu) pode até se enganar dizendo “porque sim” ou “porque eu quero”, ou “porque vou aprender algo novo”. Mas se isso não tiver um propósito que vai fazê-lo acordar mais cedo ou ficar até mais tarde fazendo, talvez seu projeto não valha a pena.
+Para quem? Esta pergunta reflete a real Utilidade do projeto. Lembra que logo em cima eu falei que software precisa ser útil? Então. Quem vai utilizar este projeto? Ou é algo que vai ficar pronto e depois “largado” em algum repositório ou, se for um projeto de Arduino, vai ficar ocupando espaço nas mesas, gavetas ou pela casa?
+Para quando? Responder às 2 questões anteriores vai ser moleza quando você se deparar com essa. Isso define prazo. Projeto que não tem prazo não é prioritário. Por que isso é tão importante? Para você terminar! Para você parar de ficar procrastinando (como eu também procrastino demais) e se mexer! Seu projeto precisa sair, ele precisa ter um término. E você é o único responsável por ele.
+Isso lembra um pouco, as tais metas SMART. Já ouviu falar? Toda meta de vida (seja de curto, médio ou longo prazo) precisa ser SMART:
+
+S: Specific (específica)
+M: Measurable (mensurável)
+A: Achievable (alcançável, pelos recursos que você tem)
+R: Reasonable (tem que ter algum significado para você, um propósito)
+T: Timed (com prazo definido)
+Pode até parecer legal, Isidro, mas e quando você tem um perfil empreendedor e vai atrás de projetos profissionais que pode até gerar uma grana?
+
+Aí entra o Framework dos 3PQ-Extended  para projetos profissionais
+
+É a mesma coisa do framework anterior com a inclusão de uma pergunta a mais:
+
+Por quanto?
+E responder a essa pergunta te dá uma noção de viabilidade. Vale a pena o esforço, o prazo apertado ou mesmo o propósito meio esquisito pelo que você vai receber em troca? Se valer, manda bala. Senão, pense duas vezes e exercite o que é consequência da aplicação destes passos: DIZER NÃO.
+
+Por muito tempo eu também tive medo do não. Dizer “não” pode ser algo simples, com sorriso no rosto, de forma cordial, educada e simples, como você é. E isso pode te poupar de entrar em várias roubadas, porque, se o não for substituído por um pode ser ou mesmo um boralá, talvez a dor de cabeça posterior seja muito maior e aí sim, o framework fará todo sentido para você.
+
+Entende?
+
+Em tempo: eu, como um professor apaixonado, não ensino nada para os meus alunos que eu não tenha testado antes. Estes pequenos passos realmente tem funcionado para mim e tem me permitido noites de sono mais tranquilas e com menos culpas. Experimente você também e me diga o que achou.
+
+Quer ver a palestra? Confere aqui!!

@@ -2,6 +2,8 @@ package bantunes82.ai.langchainspringboot.controller;
 
 import bantunes82.ai.langchainspringboot.dto.MyQuestion;
 import bantunes82.ai.langchainspringboot.dto.PromptRecipe;
+import bantunes82.ai.langchainspringboot.rag.Assistant;
+import bantunes82.ai.langchainspringboot.rag.RAGConfiguration;
 import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.input.Prompt;
 import dev.langchain4j.model.input.structured.StructuredPromptProcessor;
@@ -23,25 +25,28 @@ public class OpenAIController {
 
     private final String apiKey;
     private final ChatLanguageModel chatModel;
+    private final RAGConfiguration configuration;
+    private Assistant assistant;
 
-    public OpenAIController(@Value("${OPENAI_KEY}") String apiKey, ChatLanguageModel chatModel) {
+    public OpenAIController(@Value("${OPENAI_KEY}") String apiKey, ChatLanguageModel chatModel, RAGConfiguration configuration) {
         this.apiKey = apiKey;
         this.chatModel = chatModel;
+        this.configuration = configuration;
     }
 
     @PostMapping("/answer")
-    public String chatWithOpenAI(@RequestBody MyQuestion question){
+    public String chatWithOpenAI(@RequestBody MyQuestion question) {
         OpenAiChatModel customModel = new OpenAiChatModelBuilder()
-                                        .apiKey(apiKey)
-                                        .modelName("gpt-3.5-turbo")
-                                        .temperature(0.1)
-                                        .build();
+                .apiKey(apiKey)
+                .modelName("gpt-3.5-turbo")
+                .temperature(0.1)
+                .build();
 
         return customModel.generate(question.question());
     }
 
     @GetMapping("/recipe")
-    public String makeARecipe(){
+    public String makeARecipe() {
         var promptRecipe = new PromptRecipe("Assado", List.of("carne", "tomate", "cebola", "pimentao"));
 
         Prompt prompt = StructuredPromptProcessor.toPrompt(promptRecipe);
@@ -59,5 +64,19 @@ public class OpenAIController {
         return imageModel.generate(question.question())
                 .content().url().toURL().toString();
     }
+
+    @PostMapping("chatwithrag")
+    public String chatWithOpenAIViaRAG(@RequestBody MyQuestion question) {
+        try {
+            if (assistant == null) {
+                assistant = configuration.configure();
+            }
+            return assistant.answer(question.question());
+        } catch (Exception e) {
+            return "Impossible to answer the question";
+        }
+    }
+
+
 
 }
